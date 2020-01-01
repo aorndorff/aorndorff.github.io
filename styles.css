@@ -1,0 +1,80 @@
+h1{
+    font-family: sans-serif;
+    text-align: right;
+    text-emphasis: bold;
+    background-color: blue;
+    opacity: .5;
+}
+
+h2{
+    font-family: sans-serif;
+    text-align: Center;
+    text-emphasis: bold;
+    color: red;
+}
+body{
+    background-image: url("/Users/orndorff52/Documents/Code Projects/Rochelle/Resources/Images/Weiner.jpeg");
+    background-size: auto;
+    background-position: center center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+    background-color: turquoise;
+    border-collapse: separate;
+}
+
+table > caption{
+    text-emphasis: bold;
+    font-size: 60px;
+    color: red;
+    
+}
+
+#About{
+    background-color: rgba(14, 238, 238, 0.733);
+    height: 50%;
+    width: 25%;
+    float: none;
+    border: 5px dashed black;
+    padding: 1px;
+    margin: 50px;
+    text-align: center;
+}
+
+.cover{
+    box-shadow: 15px 15px grey;
+    padding: 40px 0px 0px 0px;
+
+}
+
+.navbar{
+    font-family: Cursive;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: turquoise;
+    opacity: .8;
+}
+
+.navbar Li{
+    display: inline-block;
+    padding: 0px 0px 0px 70px;
+    text-align: right;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: square;
+    font-family: sans-serif;
+    text-align: left;
+    text-emphasis: bold;
+    color: red;
+}
